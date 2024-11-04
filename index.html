@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Designer Freelancer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar is-dark" >
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">Portfólio</a>
+            </div>
+            <div class="navbar-menu is-active">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#home">Home</a>
+                    <a class="navbar-item" href="#sobre">Sobre Mim</a>
+                    <a class="navbar-item" href="#portfolio">Portfolio</a>
+                    <a class="navbar-item" href="#contato">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="hero is-light is-large" style="background-image: url('/img/imgDesingerTrabalhando.png'); background-size: cover; background-position: center;">
+        <div class="hero-body" style="background-color: rgba(0, 0, 0, 0.7);">
+            <div class="container has-text-left">
+                <h1 class="title has-text-white">Bem-vindo ao Meu Portfólio</h1>
+                <p class="subtitle has-text-white">Sou um designer freelancer, especializado em criação visual de marcas para grandes empresas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2 class="title has-text-centered">Sobre Mim</h2>
+            <p class="has-text-centered">Possuo 30 anos de experiência, sempre inovando e sendo original. Fui responsável pela criação do logo de diversas big techs, empresas multibilionárias e até de projetos open source.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="title has-text-centered">Portfolio</h2>
+            <div class="columns is-multiline">
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-128x128">
+                                <img src="/img/Google__G__logo.png" alt="Projeto 1">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-5">Logo Google</h3>
+                            <p>Axulei na motagem do logo da Google de forma abreviada.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-128x128">
+                                <img src="/img/aww-logo-blue-background.png" alt="Projeto 2">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-5">Logo AWS</h3>
+                            <p>Trabalhei para amazon na criação do logo de seu serviço em nuvem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-128x128">
+                                <img src="/img/Spring_Boot.png" alt="Projeto 3">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="title is-5">Logo Spring</h3>
+                            <p>Criei o logo atual do framwork para o desenvolvimento de aplicações em java, Spring.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section">
+        <div class="container">
+            <h2 class="title has-text-centered">Contato</h2>
+            <form>
+                <div class="field">
+                    <label class="label">Nome</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Seu nome">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                        <input class="input" type="email" placeholder="Seu email">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Mensagem</label>
+                    <div class="control">
+                        <textarea class="textarea" placeholder="Sua mensagem"></textarea>
+                    </div>
+                </div>
+                <div class="control">
+                    <button class="button is-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>&copy; 2024 Designer Misterioso. Todos os direitos reservados a um tal de Pedro Heleno.</p>
+        </div>
+    </footer>
+</body>
+</html>
